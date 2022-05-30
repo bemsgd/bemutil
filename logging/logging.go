@@ -1,12 +1,13 @@
 package logging
 
 import (
-	"bemod/web-api/config"
 	"bufio"
 	"fmt"
 	"os"
 	"sync"
 	"time"
+
+	"github.com/bemsgd/bemutil/config"
 )
 
 type Logger struct {

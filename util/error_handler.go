@@ -1,8 +1,9 @@
 package util
 
 import (
-	"bemod/web-api/logging"
 	"os"
+
+	"github.com/bemsgd/bemutil/logging"
 )
 
 var logger = logging.GetLogger()
